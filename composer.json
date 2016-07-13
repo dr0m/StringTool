@@ -1,0 +1,19 @@
+{
+    "name": "dr0m/string-tool",
+    "description": "String Tool",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Luis Antonio",
+            "homepage": "https://github.com/dr0m/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dr0m\\Lib\\": "src/Dr0m/Lib/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
