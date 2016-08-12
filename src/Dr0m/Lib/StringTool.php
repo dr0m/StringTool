@@ -97,18 +97,18 @@ class StringTool
      * modification, are permitted provided that the following conditions
      * are met:
      *
-     * 	* Redistributions of source code must retain the above copyright
-     * 	  notice, this list of conditions and the following disclaimer.
+     *  * Redistributions of source code must retain the above copyright
+     *    notice, this list of conditions and the following disclaimer.
      *
-     * 	* Redistributions in binary form must reproduce the above
-     * 	  copyright notice, this list of conditions and the following
-     * 	  disclaimer in the documentation and/or other materials provided
-     * 	  with the distribution.
+     *  * Redistributions in binary form must reproduce the above
+     *    copyright notice, this list of conditions and the following
+     *    disclaimer in the documentation and/or other materials provided
+     *    with the distribution.
      *
-     * 	* Neither the names of David R. Nadeau or NadeauSoftware.com, nor
-     * 	  the names of its contributors may be used to endorse or promote
-     * 	  products derived from this software without specific prior
-     * 	  written permission.
+     *  * Neither the names of David R. Nadeau or NadeauSoftware.com, nor
+     *    the names of its contributors may be used to endorse or promote
+     *    products derived from this software without specific prior
+     *    written permission.
      *
      * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
      * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -134,30 +134,30 @@ class StringTool
      * Characters stripped from the text include characters in the following
      * Unicode categories:
      *
-     * 	Separators
-     * 	Control characters
-     * 	Formatting characters
-     * 	Surrogates
-     * 	Open and close quotes
-     * 	Open and close brackets
-     * 	Dashes
-     * 	Connectors
-     * 	Numer separators
-     * 	Spaces
-     * 	Other punctuation
+     *  Separators
+     *  Control characters
+     *  Formatting characters
+     *  Surrogates
+     *  Open and close quotes
+     *  Open and close brackets
+     *  Dashes
+     *  Connectors
+     *  Numer separators
+     *  Spaces
+     *  Other punctuation
      *
      * Exceptions are made for punctuation characters that occur withn URLs
      * (such as [ ] : ; @ & ? and others), within numbers (such as . , % # '),
      * and within words (such as - and ').
      *
      * Parameters:
-     * 	text		the UTF-8 text to strip
+     *  text        the UTF-8 text to strip
      *
      * Return values:
-     * 	the stripped UTF-8 text.
+     *  the stripped UTF-8 text.
      *
      * See also:
-     * 	http://nadeausoftware.com/articles/2007/9/php_tip_how_strip_punctuation_characters_web_page
+     *  http://nadeausoftware.com/articles/2007/9/php_tip_how_strip_punctuation_characters_web_page
      */
     static function stripPunctuation($text)
     {
@@ -210,18 +210,18 @@ class StringTool
      * modification, are permitted provided that the following conditions
      * are met:
      *
-     * 	* Redistributions of source code must retain the above copyright
-     * 	  notice, this list of conditions and the following disclaimer.
+     *  * Redistributions of source code must retain the above copyright
+     *    notice, this list of conditions and the following disclaimer.
      *
-     * 	* Redistributions in binary form must reproduce the above
-     * 	  copyright notice, this list of conditions and the following
-     * 	  disclaimer in the documentation and/or other materials provided
-     * 	  with the distribution.
+     *  * Redistributions in binary form must reproduce the above
+     *    copyright notice, this list of conditions and the following
+     *    disclaimer in the documentation and/or other materials provided
+     *    with the distribution.
      *
-     * 	* Neither the names of David R. Nadeau or NadeauSoftware.com, nor
-     * 	  the names of its contributors may be used to endorse or promote
-     * 	  products derived from this software without specific prior
-     * 	  written permission.
+     *  * Neither the names of David R. Nadeau or NadeauSoftware.com, nor
+     *    the names of its contributors may be used to endorse or promote
+     *    products derived from this software without specific prior
+     *    written permission.
      *
      * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
      * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -247,23 +247,23 @@ class StringTool
      * Characters stripped from the text include characters in the following
      * Unicode categories:
      *
-     * 	Modifier symbols
-     * 	Private use symbols
-     * 	Math symbols
-     * 	Other symbols
+     *  Modifier symbols
+     *  Private use symbols
+     *  Math symbols
+     *  Other symbols
      *
      * Exceptions are made for math symbols embedded within numbers (such as
      * + - /), math symbols used within URLs (such as = ~), units of measure
      * symbols, and ideograph parts.  Currency symbols are not removed.
      *
      * Parameters:
-     * 	text		the UTF-8 text to strip
+     *  text        the UTF-8 text to strip
      *
      * Return values:
-     * 	the stripped UTF-8 text.
+     *  the stripped UTF-8 text.
      *
      * See also:
-     * 	http://nadeausoftware.com/articles/2007/09/php_tip_how_strip_symbol_characters_web_page
+     *  http://nadeausoftware.com/articles/2007/09/php_tip_how_strip_symbol_characters_web_page
      */
     static function stripSymbols($text)
     {
@@ -314,18 +314,18 @@ class StringTool
      * modification, are permitted provided that the following conditions
      * are met:
      *
-     * 	* Redistributions of source code must retain the above copyright
-     * 	  notice, this list of conditions and the following disclaimer.
+     *  * Redistributions of source code must retain the above copyright
+     *    notice, this list of conditions and the following disclaimer.
      *
-     * 	* Redistributions in binary form must reproduce the above
-     * 	  copyright notice, this list of conditions and the following
-     * 	  disclaimer in the documentation and/or other materials provided
-     * 	  with the distribution.
+     *  * Redistributions in binary form must reproduce the above
+     *    copyright notice, this list of conditions and the following
+     *    disclaimer in the documentation and/or other materials provided
+     *    with the distribution.
      *
-     * 	* Neither the names of David R. Nadeau or NadeauSoftware.com, nor
-     * 	  the names of its contributors may be used to endorse or promote
-     * 	  products derived from this software without specific prior
-     * 	  written permission.
+     *  * Neither the names of David R. Nadeau or NadeauSoftware.com, nor
+     *    the names of its contributors may be used to endorse or promote
+     *    products derived from this software without specific prior
+     *    written permission.
      *
      * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
      * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -354,13 +354,13 @@ class StringTool
      * characters).  Letters, punctuation, and other symbols are left as-is.
      *
      * Parameters:
-     * 	text		the UTF-8 text to strip
+     *  text        the UTF-8 text to strip
      *
      * Return values:
-     * 	the stripped UTF-8 text.
+     *  the stripped UTF-8 text.
      *
      * See also:
-     * 	http://nadeausoftware.com/articles/2007/10/php_tip_how_strip_numbers_web_page
+     *  http://nadeausoftware.com/articles/2007/10/php_tip_how_strip_numbers_web_page
      */
     static function stripNumbers($text)
     {
@@ -679,5 +679,6 @@ class StringTool
 
         return $search;
     }
+
 
 }
